@@ -6,7 +6,7 @@ Over the next three months, this project will analyze Premier League match data 
 ---
 ## Motivation
 
-As a long-time follower of the Premier League, I have always been fascinated by the physicality, relentless tempo, and moments of brilliance that define football matches. By combining my passion for the game with my data science expertise, I aim to develop a match-winner finder model. This model will identify key players who have a decisive impact on match results by analyzing key performance metrics and uncovering patterns that distinguish game-changers from the rest. This project seeks to merge the excitement of football with the precision of data analytics.
+As a long-time follower of the Premier League, I have always been fascinated by the physicality and relentless tempo that define football matches. By combining my passion for the game with my data project, I aim to develop a match-winner finder model. This model will identify key players who have a decisive impact on match results by analyzing key performance metrics and uncovering patterns that distinguish game-changers from the rest. This project seeks to merge the excitement of football with the precision of data analytics.
 
 ---
 
@@ -45,26 +45,37 @@ Similar platforms: Additional sources for recent form graphics, team values, and
 ---
 ### Analysis Approach
 #### Data Collection & Cleaning
+
 - Gather data from FBref, Opta, and other reliable sources.
+  
 - Include match stats, team trends, injuries, and transfers.
+
 - Clean and preprocess data to handle missing values and inconsistencies.
 
 ### Exploratory Data Analysis (EDA)
 
 - Identify correlations between key stats and match outcomes.
+  
 - Analyze team performance trends over time.
+  
 - Assess the impact of home advantage, injuries, and transfers.
+  
 - Feature Engineering
 
-### Compute rolling averages for key metrics (xG, xA, goal contributions, etc.).
-- Adjust for opposition strength and develop player impact ratings.
+### Compute rolling averages for key metrics (xG, xA, goal contributions, etc.)
+
+- Model adjusts the opposition strength and performance.
+  
 - Model injuries and transfers to refine team strength estimates.
 
 ### Predictive Modeling
 
 - Train ML models (Random Forest, XGBoost) to predict match results.
+  
 - Identify key factors influencing outcomes.
+  
 - Evaluate and refine model performance based on predictions vs. actual results
+  
 ---
 ## Hypothesis
 
